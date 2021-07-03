@@ -1,0 +1,1061 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin: 0px; padding: 0px;}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+section{
+    padding: 80px 0px;
+}
+
+.main{
+    background: #f5f5f5;
+}
+.container {
+    width: 1140px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.topbarWrapper{
+    overflow: hidden;
+}
+
+.phone {
+    width: 234px;
+    float: left;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+i.fas.fa-phone {
+    color: #ff5200;
+    padding: 15px;
+}
+
+i.fas.fa-envelope {
+    color: #ff5200;
+    padding: 15px;
+}
+
+.email {
+    width: 764px;
+    float: left;
+}
+
+.social {
+    width: 140px;
+    float: left;
+}
+
+.social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: black;
+}
+
+.social a:first-child{
+    border-left: 1px solid #ddd;
+}
+
+.social i:hover{
+    color: #ff5200;
+    transition: 0.4s;
+}
+
+.primaryMenuWrapper {
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 22px;
+}
+
+.menu {
+    width: 990px;
+    float: left;
+}
+
+ul.mainMenuItem {
+    list-style: none;
+    float: right;
+}
+
+ul.mainMenuItem li {
+    float: left;
+}
+
+ul.mainMenuItem li a {
+    text-decoration: none;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    padding: 30px 15px;
+    color: #191919;
+    font-weight: 500;
+}
+
+
+ul.mainMenuItem li a:hover {
+    color: #ff5200;
+    transition: 0.3s;
+}
+
+#homeSlider{
+    background: url(img/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
+    background-size: cover;
+
+}
+
+.sliderContent {
+    color: white;
+    width: 600px;
+}
+
+.sliderContent h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    padding-top: 120px;
+}
+
+.sliderContent p {
+    font-weight: 500;
+    font-size: 17px;
+    width: 500px;
+    margin-bottom: 28px;
+    line-height: 26px;
+}
+
+#sliderButton {
+    background: #ff5200;
+    border: none;
+    padding: 13px 47px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Oswald';
+    border-radius: 3px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 70px;
+}
+
+#sliderButton:hover{
+    background: #252525;
+    transition: 0.3s;
+}
+
+.button1{
+    width: 15px;
+    height: 15px;
+    background: #ff5200;
+    display: block;
+    float: left;
+    border-radius: 100%;
+
+}
+
+.button2 {
+    width: 10px;
+    height: 10px;
+    border: 3px solid #cbcbcb;
+    border-radius: 100%;
+    background: transparent;
+    margin-left: 25px;
+    display: block;
+}
+
+.sliderNavigation {
+    width: 100px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.sBoxWrapper{
+    overflow: hidden;
+}
+
+.sBox{
+    background: white;
+    width: 260px;
+    float: left;
+    margin-right: 33px;
+    box-shadow: 0px 0px 2px #e2e0e0;
+    transition: 0.3s;
+}
+
+.sBox:hover{
+    background: #ff5200;
+    cursor: pointer;
+}
+
+.sBox:hover div{
+    color: white;
+}
+
+.sBox:hover a{
+    color: white;
+}
+
+.sBox:nth-child(2){
+    background: #ff5200 ;
+    color: white;
+}
+
+.sBox:nth-child(2) div{
+    color: white;
+}
+
+.sBox:nth-child(2) a{
+    color: white;
+}
+
+.sBox:last-child{
+    margin-right: 0px;
+}
+
+.icon {
+    text-align: center;
+    padding: 35px 0px;
+    color: #ff5200;
+    font-size: 40px;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    margin-bottom: 25px;
+    color: #272727;
+}
+
+.description {
+    text-align: center;
+    color: #4a4949;
+    line-height: 26px;
+    margin-bottom: 25px;
+    padding: 0px 5px;
+}
+
+.link {
+    width: 120px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #ff5200;
+}
+
+.link i {
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+.teamWrapper {
+    overflow: hidden;
+}
+
+.image {
+    width: 550px;
+    float: left;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.team {
+    width: 550px;
+    float: right;
+}
+
+.team h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.team p {color: #4e4d4d;margin-bottom: 20px;}
+
+ul.list1 {
+    list-style: none;
+    float: left;
+    width: 275px;
+}
+
+ul.list1 i {
+    color: #717070;
+    font-size: 10px;
+    margin-right: 15px;
+}
+
+ul.list1 li {
+    font-weight: 500;
+    line-height: 40px;
+}
+
+ul.list2 {
+    list-style: none;
+    float: right;
+    width: 275px;
+}
+
+ul.list2 i {
+    color: #6d6d6d;
+    font-size: 10px;
+    margin-right: 15px;
+}
+
+ul.list2 li {
+    font-weight: 500;
+    line-height: 40px;
+}
+
+button.buton {
+    background: #ff5200;
+    border: none;
+    padding: 13px 30px;
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+
+.buton:hover{
+    background: #252525;
+    transition: 0.3s;
+}
+
+.number{
+    background: linear-gradient(#00000099, #0000005f), url(img/why-choose-us1.jpg);
+}
+
+.numberWrapper {
+    overflow: hidden;
+}
+
+.num {
+    width: 250px;
+    float: left;
+    margin-right: 35px;
+}
+
+.icn {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.text h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+}
+
+.text h2 {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 22px;
+}
+
+.head {
+    width: 100%;
+}
+
+.head h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.bar {
+    width: 60px;
+    height: 3px;
+    border-radius: 5px;
+    background: #ff5200;
+    margin: 15px auto;
+}
+
+.head p {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    color: #3e3e3e;
+}
+
+#infox{
+    background: #f5f5f5;
+}
+
+.ibox {
+    width: 250px;
+    float: left;
+    margin-right: 46px;
+}
+
+.ibox:last-child{
+    margin: 0px;
+}
+
+.ibox img {
+    max-width: 100%;
+}
+
+.infoWrapper {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.info h1 {
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.info p {
+    color: #656363;
+}
+
+.priceHead h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.priceHead p {
+    text-align: center;
+    width: 494px;
+    margin: auto;
+    color: #525050;
+}
+
+.priceWrapper {overflow: hidden;margin-top: 40px;}
+
+.priceBox {
+    width: 304px;
+    padding: 25px;
+    float: left;
+    margin-right: 35px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0px 0px 10px #65656517;
+    border-radius: 5px;
+}
+
+.priceBox:last-child{
+    margin: 0px;
+}
+
+
+.priceBox h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Work Sans';
+}
+
+span {
+    font-size: 20px;
+}
+
+ul.priceInfo {
+    list-style: none;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+ul.priceInfo i {
+    color: #ff5200;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.priceBox h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+ul.priceInfo li {
+    color: #545353;
+}
+
+.priceBox button {
+    background: #ff5200;
+    border: none;
+    padding: 15px 30px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.priceBox button:hover{
+    background: #252525;
+    transition: 0.3s;   
+}
+
+.ideaWrapper{
+    position: relative;
+    min-width: 350px;
+    overflow: hidden;
+}
+
+.image2 {
+    width: 50%;
+    height: 100%;
+    position:  absolute;
+    top: 0px;
+    left: 0px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.ideas {
+    max-height: 100%;
+    max-width: 50%;
+    float: right;
+    background: #222222;
+    /* padding: 70px; */
+}
+
+.headIdeas{
+    margin: 70px 70px 0px 70px;
+}
+
+.allIdeas{
+    margin: 70px;
+}
+
+.headIdeas h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.headIdeas p {
+    color: white;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.idea1 {
+    width: 267px;
+    float: left;
+}
+
+.idea1 i {
+    color: #ff5200;
+    font-size: 40px;
+    float: left;
+    margin-right: 20px;
+}
+
+.idea1 h1 {
+    color: white;
+    font-size: 21px;
+}
+
+.idea1 p {
+    color: rgba(255, 255, 255, 0.836);
+    display: block;
+    margin-top: 15px;
+    
+}
+
+.idea1 div{
+    width: 197px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.photoBox {
+    width: 260px;
+    border: 1px solid #7776761f;
+    float: left;
+    margin-right: 30px;
+}
+
+.photoBox img {
+    width: 100%;
+}
+
+.photoBox h1 {
+    text-align: center;
+    font-size: 20px;
+    margin: 17px 0px 5px 0px;
+}
+
+.photoBox p {
+    text-align: center;
+    color: #696767;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.photoBox:last-child{
+    margin: 0px;
+}
+
+
+button.bu {
+    background: #252525;
+    border: navajowhite;
+    padding: 13px 38px;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 17px;
+    display: block;
+    margin: 45px auto 0px auto;
+    letter-spacing: 1px;
+}
+
+button.bu:hover {
+    background: #ff5200;
+    transition: 0.3s;
+}
+
+.projectWrapper{
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.secondPBox {overflow: hidden;margin-top: 20px;}
+
+.firstPBox {
+    overflow: hidden;
+}
+
+.project{
+    width: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    margin-right: 20px;
+}
+
+.project h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    margin: 120px 0px 20px 25px;
+}
+
+.project h1 {
+    color: white;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+.project a {
+    color: white;
+    margin: 20px 10px 35px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.project i {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.newsWrapper {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.newsBox {
+    width: 358px;
+    overflow: hidden;
+    border: 1px solid #ececec;
+    float: left;
+    margin-right: 30px;
+}
+
+.newsBox:last-child{
+    margin-right: 0px;
+}
+
+.newsImage {
+    width: 100%;
+}
+
+.newsImage img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.titleLine span {
+    display: block;
+    width: 95px;
+    font-size: 14px;
+    color: #7d7d7d;
+    float: left;
+}
+
+.newsInfo {
+    padding: 25px;
+}
+
+.sBar {
+    width: 15px;
+    height: 2px;
+    background: #ff5200;
+    float: left;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+.titleLine span:last-child {color: #313131;float: left;margin-left: 14px;width: 100px;}
+
+.titleLine {
+    width: 100%;
+    overflow: hidden;
+}
+
+.titleLine span:last-child:hover {
+    color: #ff5200;
+}
+
+.newsInfo h1 {
+    color: #212121;
+    margin: 15px 0;
+}
+
+.newsInfo p {
+    color: #5a5757;
+    margin-bottom: 15px;
+}
+
+.newsInfo a {
+    text-decoration: none;
+    color: #ff5200;
+}
+
+.newsInfo a i {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.newsInfo h1:hover {
+    color: #ff5200;
+}
+
+.newsImage img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.footerContentWrapper {
+    overflow: hidden;
+    padding: 140px 0px 80px 0px;
+}
+
+.footerBox {
+    width: 270px;
+    line-height: 22px;
+    float: left;
+    margin-right: 20px;
+}
+
+.footerBox:last-child{
+    margin-right: 0px;
+}
+
+.footerBox h1 {
+    color: #e8e8e8;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.footerBox p {
+    color: #b1b1b1;
+    margin-bottom: 20px;
+}
+
+.footerIcons i {
+    color: rgb(216, 216, 216);
+    margin-right: 20px;
+}
+
+.ttle i {
+    color: #ff5200;
+    padding: 5px 15px 20px 0px !important;
+    float: left;
+}
+
+.ttle i {
+    color: #ff5200;
+    padding: 5px 15px 20px 0px !important;
+    float: left;
+}
+
+ul.footerList {
+    list-style: none;
+}
+
+ul.footerList li a {
+    text-decoration: none;
+    color: #a5a1a1;
+    font-size: 15px;
+    line-height: 35px;
+    transition: 0.3s;
+}
+
+ul.footerList li a i {
+    font-size: 9px;
+    margin-right: 8px;
+}
+
+ul.footerList li {
+    border-bottom: 1px dashed #353535;
+}
+
+ul.footerList li:last-child{
+    border: none;
+}
+
+ul.footerList li a:hover {
+    color: #ff5200;
+}
+
+.iBox1 {
+    background: #313131;
+    width: 45px;
+    color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+.iBox1 h3 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.iBox1 h4 {text-transform: uppercase;font-size: 9px;font-family: 'Work Sans';text-align: center;margin: 7px 0px;line-height: 11px;}
+
+.iBox2 h2 {
+    color: #a5a3a3;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.iBox2 h2:hover{
+    color: #ff5200;
+}
+
+.iBox2 {
+    margin-left: 20px;
+    float: left;
+    width: 179px;
+
+}
+
+.iBox2 p {
+    font-size: 11px;
+    color: #636060;
+}
+
+.frstinfo {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    border-top: 1px solid #4a4a4adb;
+    overflow: hidden;
+}
+
+p.copyrightText {
+    color: #a7a7a7;
+    margin: 28px 0px;
+    float: left;
+}
+
+ul.copyrightLinks {
+    list-style: none;
+    float: right;
+    width: 324px;
+}
+
+ul.copyrightLinks li a {color: #9a9a9a;text-decoration: none;float: left;margin: 28px 15px;}
+
+
+.fBoxx {
+    width: 337px;
+    padding: 30px 0px 0px 40px;
+}
+
+.fBoxx h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.inputBox input {
+    padding: 15px;
+    border: none;
+    border-radius: 26px;
+    margin-bottom: 40px;
+    width: 206px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.cWrapper {
+    display: flex;
+    border-radius: 3px;
+}
+
+.inputBox button {
+    border: none;
+    padding: 15px;
+    border-radius: 26px;
+    background: black;
+    color: white;
+    width: 88px;
+    margin-left: -64px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.fBoxx p {
+    color: #ffffff;
+    line-height: 25px;
+    font-family: 'Work Sans';
+}
+
+.cIcons a {border: 1px solid white;display: block;width: 20px;height: 20px;color: white;float: left;text-align: center;border-radius: 50%;padding: 7px;margin-right: 8px;transition: 0.3s;}
+
+
+.cIcons a:hover {
+    background: #FFFFFF;
+    color: black;
+}
+
+section#hello {
+    position: relative;
+    margin-bottom: -60px;
+}
+
+ul.mainMenuItem a {
+    position: relative;
+}
+
+ul.subMenu {
+    position: absolute;
+    border-top: 1px solid #e8e8e8;
+    width: 250px;
+    background: white;
+    list-style: none;
+    padding: 25px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+
+ul.subMenu li{
+    float: none;
+    line-height: 30px;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    position: relative;
+}
+
+ul.subMenu li:hover{
+    color:#ff5200;
+    cursor: pointer;
+}
+
+ul.subMenu li:before {
+    content: "";
+    width: 15px;
+    height: 2px;
+    background: #ff5200;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.mainMenuItem li:hover .subMenu{
+    transform:scaleY(1);
+
+}
+
+ul.mainMenuItem i {
+    margin-left: 3px;
+}
+
+.imgandIcons {
+    position: relative;
+}
+
+.imgIcons {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+}
+.imgIcons i {
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 3px;
+    transition: 0.3s;
+    visibility: hidden;
+}
+
+.imgIcons i:hover{
+    color:black;
+    background: white !important;
+}
+
+.imgandIcons:hover .imgIcons i{
+    visibility: visible;
+}
